@@ -20,7 +20,7 @@ Rising Waters is a machine learning-based flood prediction system that analyzes 
 - Provide early warning alerts.
 - Support disaster management teams.
 - Improve public safety and preparedness.
->>>>>>> 0005dece156114a9069727cf8cdbbd99111156d5
+
 
 ## Technologies Used
 - Python
