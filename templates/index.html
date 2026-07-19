@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rising Water Management</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>🌊 Rising Water Management System</h1>
+    <p>AI-powered monitoring system for rising water levels.</p>
+
+    <div class="card">
+    <h2>Current Status</h2>
+    <p>Water Level: {{ water_level }}%</p>
+
+<progress value="{{ water_level }}" max="100"></progress>
+
+<p>{{ water_level }}% of warning level</p>
+</div>
+
+<div class="card alert">
+    <h2>⚠️ Flood Alert</h2>
+    <p>{{ alert }}</p>
+</div>
+<div class="card">
+    <h2>📡 Sensor Data</h2>
+    <p>Water Level Sensor: Active</p>
+    <p>Temperature: {{ temperature }}°C</p>
+    <p>Humidity: {{ humidity }}%</p>
+</div>
+    </div>
+
+    <div class="card">
+        <h2>Alert System</h2>
+        <p>No flood alerts detected.</p>
+    </div>
+</div>
+
+</body>
+</html>
