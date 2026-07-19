@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Rising Water Management System
 
 ## Project Description
@@ -9,7 +9,7 @@ The Rising Water Management System is a Flask-based web application that monitor
 - Shows flood alert status
 - User-friendly interface
 - Built using Flask, HTML, and CSS
-=======
+
 # Rising Waters – Flood Prediction System
 
 ## Project Overview
